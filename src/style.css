@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #101014;
+  color: white;
+}
+
+#app {
+  display: block;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.n-layout .n-layout-scroll-container {
+  overflow-x: visible;
+}
+
+a {
+  text-decoration: none;
+}
