@@ -190,7 +190,7 @@ function Test(){
     <n-divider />
     <n-space justify="space-between" align="center">
       <n-space align="center">
-      <n-form-item class="filter" label="Nach Buchtitel oder Autor filtern">
+      <n-form-item class="filter" label="Nach Autor filtern">
         <n-input clearable v-model:value="authorFilter" type="text" placeholder="Leo Tolstoi" id="bookFilter"
           name="bookFilter" @update:value="getFilteredAuthors()">
           <template #clear-icon>
