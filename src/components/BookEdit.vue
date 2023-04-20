@@ -92,6 +92,7 @@ let book = ref<Buch>({
     status: 'finished'
   }]
       console.log(book.value);
+      console.log(imageList.value)
     });
     // handle file uploaded
 const fileUploaded: OnFinish = ({ file, event }: { file: UploadFileInfo, event?: ProgressEvent }) => {
